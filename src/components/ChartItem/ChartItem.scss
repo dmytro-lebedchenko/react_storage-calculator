@@ -1,0 +1,115 @@
+@import "../../styles/main.scss";
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 46px;
+
+  @include onDesktop {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    width: 100%;
+    height: 40px;
+    gap: 0;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+
+    &--title {
+      @extend %title-text;
+      margin-bottom: 4px;
+    }
+  }
+
+  &__options {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    @include onDesktop {
+      flex-direction: row;
+      gap: 20px;
+    }
+  }
+}
+
+.chart-item {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+
+  &__title {
+    @extend %title-text;
+    margin-bottom: 4px;
+  }
+
+  &__options {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    @include onDesktop {
+      flex-direction: row;
+      gap: 20px;
+    }
+  }
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  order: 1;
+  height: 200px;
+
+  @include onDesktop {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 22px;
+    order: 2;
+  }
+
+  &__price {
+    @include onDesktop {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+    }
+  }
+
+  &__item {
+    background: $color-secondary;
+
+    &--blue {
+      background: $color-blue;
+    }
+
+    &--red {
+      background: $color-red;
+    }
+
+    &--yellow {
+      background: $color-yellow;
+    }
+
+    &--purple {
+      background: $color-purple;
+    }
+  }
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__title {
+    margin-right: 6px;
+  }
+}

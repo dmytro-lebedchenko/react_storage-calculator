@@ -1,0 +1,12 @@
+@import "../../styles/main.scss";
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+
+  @include onDesktop {
+    width: 400px;
+  }
+}

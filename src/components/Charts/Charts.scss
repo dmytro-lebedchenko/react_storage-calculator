@@ -1,0 +1,15 @@
+@import "../../styles/main.scss";
+
+.charts {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px;
+  gap: 20px;
+  border: 1px solid $color-secondary;
+  border-radius: 8px;
+  background-color: $color-white;
+
+  @include onDesktop {
+    flex-direction: column;
+  }
+}

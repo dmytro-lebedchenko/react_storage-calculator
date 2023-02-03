@@ -1,0 +1,14 @@
+@import "./styles/main.scss";
+
+.App {
+  @extend %body-text;
+  color: $color-primary;
+  background-color: $color-lightblue;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1136px;
+  margin: 0 auto;
+  padding: 40px;
+}

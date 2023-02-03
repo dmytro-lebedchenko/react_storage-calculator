@@ -1,0 +1,17 @@
+@import "../../styles/main.scss";
+
+.sliders {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 50px;
+  padding: 28px;
+  gap: 40px;
+  border: 1px solid $color-secondary;
+  border-radius: 8px;
+  background-color: $color-white;
+
+  @include onDesktop {
+    flex-direction: row;
+  }
+}
