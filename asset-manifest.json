@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react_storage-calculator/static/css/main.deb50f55.css",
+    "main.js": "/react_storage-calculator/static/js/main.07be11dd.js",
+    "static/media/not_found.gif": "/react_storage-calculator/static/media/not_found.181c5a6430bcb77324b1.gif",
+    "static/media/fa-solid-900.ttf": "/react_storage-calculator/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/react_storage-calculator/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/Mont-Regular.otf": "/react_storage-calculator/static/media/Mont-Regular.1d26d89f7339866d3133.otf",
+    "static/media/Mont-SemiBold.otf": "/react_storage-calculator/static/media/Mont-SemiBold.8979d71a3146ca1d761f.otf",
+    "static/media/Mont-Bold.otf": "/react_storage-calculator/static/media/Mont-Bold.03c8c2f6127c1da0fc39.otf",
+    "static/media/fa-solid-900.woff2": "/react_storage-calculator/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/react_storage-calculator/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/react_storage-calculator/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/fa-regular-400.woff2": "/react_storage-calculator/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/react_storage-calculator/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/react_storage-calculator/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/react_storage-calculator/index.html",
+    "main.deb50f55.css.map": "/react_storage-calculator/static/css/main.deb50f55.css.map",
+    "main.07be11dd.js.map": "/react_storage-calculator/static/js/main.07be11dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deb50f55.css",
+    "static/js/main.07be11dd.js"
+  ]
+}
